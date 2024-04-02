@@ -18,7 +18,7 @@ background-color: black;
 }
 
 #clear{
-    width: 100%;
+    width: 98.9%;
 }
 
 main {
@@ -28,8 +28,12 @@ button{
 width: 24.498%;
 height: 8rem;
 font-size: 5rem;
-
 }
+
+#comma, #add, #sub, #mul, #div, #enter, #clear {
+    color: rgb(57,202,251);
+}
+
 
 main input{
     width: 100%;
@@ -43,6 +47,7 @@ main input{
     border: 1px solid yellow;
     border-radius:4px;
 }
+
 
 main section#keyBoard {
     /** Grid eller liknade */
