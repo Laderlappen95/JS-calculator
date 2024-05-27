@@ -14,24 +14,28 @@ html {
 }
 
 body {
-background-color: black;
+background-color: white;
+margin: 5rem;
 }
 
 #clear{
-    width: 98.9%;
+    width: 100%;
 }
 
-main {
-
+#keyBoard {
+    background-color: aliceblue;
 }
 button{
-width: 24.498%;
+width: 24%;
 height: 8rem;
-font-size: 5rem;
+font-size: 4rem;
 }
 
 #comma, #add, #sub, #mul, #div, #enter, #clear {
     color: rgb(57,202,251);
+}
+#clear{
+    border-radius: 1rem;
 }
 
 
@@ -39,12 +43,12 @@ main input{
     width: 100%;
     font-size: 5rem;
     margin-bottom:10px;
-    background-color: black;
+    background-color: aliceblue;
     color: green;
     text-align: right;
     padding: 10px 4px 10px 4px;
     font-family: lcd;
-    border: 1px solid yellow;
+    border: 1px solid floralwhite;
     border-radius:4px;
 }
 
