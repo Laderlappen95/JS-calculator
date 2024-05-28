@@ -77,3 +77,12 @@ main section#keyBoard {
     }
 
 }
+
+/*GRID*/
+    #keyBoard{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+    }
