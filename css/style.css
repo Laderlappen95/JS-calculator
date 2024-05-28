@@ -85,4 +85,5 @@ main section#keyBoard {
     grid-template-columns: repeat(4, 1fr);
     grid-row: 1 / 1;
     grid-column: 1 / 1;
+    width: 100%;
     }
