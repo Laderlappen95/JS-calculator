@@ -52,32 +52,6 @@ main input{
     border-radius:4px;
 }
 
-
-main section#keyBoard {
-    /** Grid eller liknade */
-}
-
-@media (max-width: 767px) {
-    body {
-
-    }
-
-    main {
-
-    }
-
-    main input{
-
-    }
-}
-
-@media (max-width: 339px) {
-    main {
-
-    }
-
-}
-
 /*GRID*/
     #keyBoard{
     display: grid;
