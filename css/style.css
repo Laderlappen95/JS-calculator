@@ -29,6 +29,7 @@ button{
 width: 24.25%;
 height: 8rem;
 font-size: 4rem;
+width: 100%;
 }
 
 #comma, #add, #sub, #mul, #div, #enter, #clear {
@@ -50,4 +51,11 @@ main input{
     font-family: lcd;
     border: 1px solid floralwhite;
     border-radius:4px;
+}
+#keyBoard{
+display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
 }
